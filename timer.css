@@ -1,0 +1,19 @@
+#clock{
+    position: relative;
+    top: -15vw;
+    right: 10vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Orbitron;
+    font-size:1.2vw;
+    font-weight: bold;
+    width:8vw;
+    height:8vw;
+    background-color:rgba(8, 113, 235, 0.42);
+    border:solid 1vw;
+    border-color: rgba(38, 125, 151, 0.42);
+    border-radius: 40vw;
+    padding: 5px;
+
+}

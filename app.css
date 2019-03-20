@@ -1,0 +1,73 @@
+
+.clear{
+    background-image: url(https://media.giphy.com/media/NU9hqIw9vN0fm/giphy.gif)
+}
+.clouds{
+    background-image: url(https://media.giphy.com/media/85T59TGSKhjWg/giphy.gif)
+}
+.rain{
+    background-image: url(https://media.giphy.com/media/dI3D3BWfDub0Q/giphy.gif)
+}
+.snow{
+    background-image: url(https://media.giphy.com/media/14uJKhQMZ1wLfO/giphy.gif)
+}
+.mist{
+    background-image: url(https://media.giphy.com/media/rUrPxeIxcwZTq/giphy.gif)
+}
+.fog{
+    background-image: url(https://media.giphy.com/media/rUrPxeIxcwZTq/giphy.gif)
+}
+.drizzle{
+    background-image: url(https://media.giphy.com/media/Rp6Gqh3j1FKM0/giphy.gif)
+}
+body {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color:#fff;
+    text-shadow: 3px 3px 1px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow:hidden;
+    background-position: center;
+    background-size:cover;
+}
+h1{
+    font-size :2.5vw;
+    position: relative;
+}
+i.wi{
+    margin-top:3vw;
+    margin-bottom:1vw;
+    font-size: 5vw;
+    line-height: 3vw;
+}
+h2{
+    font-size: 1.4vw;
+    
+}
+#app{
+    display:inline-grid;
+    justify-content: center;
+    align-items: center;
+    width:26vw;
+    height:26vw;
+    background-color:rgba(8, 113, 235, 0.42);
+    border:solid 1vw;
+    border-color: rgba(38, 125, 151, 0.42);
+    border-radius: 40vw;
+    padding: 5px;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:25vw;
+    height:6vw;
+    background-color: rgba(8, 87, 235, 0.671);
+    border-radius:4vw;
+}
+#ville{
+    font-size: 2vw;
+}
