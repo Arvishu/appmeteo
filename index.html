@@ -9,32 +9,44 @@
     <link href="timer.css" rel="stylesheet">
     <link rel='stylesheet'
         href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css' />
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Orbitron" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Orbitron" rel="stylesheet">
 </head>
 
 <body>
     <section id="clock">
-        
+
     </section>
     <section id="app">
-            <i class="wi wi-day-rain"></i>
+        <i id="conditions"></i>
         <div id="container">
             <h1>
-                <span id="ville" title="Entrez une autre ville si vous le souhaitez" data-toggle="tooltip"data-placement="top"></span>
+                <span id="ville" title="Entrez une autre ville si vous le souhaitez" data-toggle="tooltip"
+                    data-placement="top">Bordeaux</span>
 
             </h1>
         </div>
-       
+
         <h2>
-            <span id="temperature"> 10</span>C°
+            <span id="temperature"></span> C°
             (<span id="description"></span>)
 
         </h2>
     </section>
+    <section id="wind">
+        <h2>
+            <div>
+                <span>Vent de force: </span>
+                <i id="windForce"></i>
+            </div>
+            <i id="windFromIcons"></i>
+            <span id="windSpeed"></span>
+
+    </section>
 
 
     <script src="app.js"></script>
-    <script src ="timer.js"></script>
+    <script src="timer.js"></script>
+
 </body>
 
 </html>

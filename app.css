@@ -20,6 +20,9 @@
 .drizzle{
     background-image: url(https://media.giphy.com/media/Rp6Gqh3j1FKM0/giphy.gif)
 }
+.haze{
+    background-image: url(https://media.giphy.com/media/rUrPxeIxcwZTq/giphy.gif)
+}
 body {
     font-family: 'Trebuchet MS';
     text-align: center;
@@ -44,7 +47,7 @@ i.wi{
     line-height: 3vw;
 }
 h2{
-    font-size: 1.4vw;
+    font-size: 1vw;
     
 }
 #app{
@@ -70,4 +73,19 @@ h2{
 }
 #ville{
     font-size: 2vw;
+}
+#wind{
+    position: relative;
+    left:10vw;
+    top:-9vw;
+    display:inline-grid;
+    justify-content: center;
+    align-items: center;
+    width:15vw;
+    height:15vw;
+    background-color:rgba(8, 113, 235, 0.42);
+    border:solid 1vw;
+    border-color: rgba(38, 125, 151, 0.42);
+    border-radius: 40vw;
+    padding: 2vw;
 }
