@@ -41,7 +41,7 @@ async function main(withIp = false) {
             .then(json => json.ip)
         console.log("mon ip", ip)
 
-        ville = await fetch(`http://api.ipstack.com/${ip}?access_key=2f5508a6ed2955cc128206339362e936&output=json`)
+        ville = await fetch(`https://api.ipstack.com/${ip}?access_key=2f5508a6ed2955cc128206339362e936&output=json`)
             .then(resultat => resultat.json())
             .then(json => json.city)
         console.log("ma ville", ville);
@@ -50,7 +50,7 @@ async function main(withIp = false) {
         ville = document.querySelector('#ville').textContent;
     }
 
-    const meteo = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=defeafed2cc61f726191fd8cb1e462b1&lang=fr&units=metric`)
+    const meteo = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=defeafed2cc61f726191fd8cb1e462b1&lang=fr&units=metric`)
         .then(resultat => resultat.json())
         .then(json => json)
 
