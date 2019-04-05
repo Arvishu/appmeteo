@@ -29,7 +29,7 @@ function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-async function main(withIp = false) {
+async function main(withIp = true) {
 
     let ville;
     if (withIp) {
